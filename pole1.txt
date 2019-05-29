@@ -1,0 +1,16 @@
+9 1
+9 1
+1 1 1 1 1 0 0 0 0 0
+1 0 0 0 1 0 0 0 0 0
+1 0 2 2 1 0 1 1 1 0
+1 0 2 0 1 0 1 4 1 0
+1 1 1 0 1 1 1 4 1 0
+0 1 1 0 0 0 0 4 1 0
+0 1 0 0 0 1 0 0 1 0
+0 1 0 0 0 1 1 1 1 0
+0 1 1 1 1 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+
+pierwsze dwie zmienne określają wielkość planszy
+Wzór na poprawną szerokość ekranu aby pole wyświetlało sie na środku:
+((SCREEN_WIDTH-(36*(ilość pól w poziomie)))/2)+18

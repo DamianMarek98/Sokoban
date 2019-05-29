@@ -1,0 +1,25 @@
+3 3
+3 3
+1 1 1 1	1 1 1 1 1 1
+1 0 0 4 4 4 0 0 0 1
+1 0 0 0 0 0 0 0 0 1
+1 0 0 2 0 0 0 0 0 1
+1 0 2 0 1 2 0 0 4 1
+1 0 0 0 1 0 0 0 0 1
+1 0 0 0 1 0 0 0 0 1
+1 0 0 0 0 0 2 0 0 1
+1 0 0 2 0 0 0 0 4 1
+1 1 1 1 1 1 1 1 1 1 
+
+pierwsze dwie zmienne okreœlaj¹ wielkoœæ planszy
+Wzór na poprawn¹ szerokoœæ ekranu aby pole wyœwietla³o sie na œrodku:
+((SCREEN_WIDTH-(36*(iloœæ pól w poziomie)))/2)+18
+
+Legenda:
+-Pierwsze dwie linie to kolejno: wysokoœæ i jej mno¿nik oraz szerokoœæ i jej mnoznik
+-Dalej pole gry: wype³niæ ca³y zadeklarowy wczeœniej obszar:
+-0:puste pole,
+-1:sciana,
+-2:skrzynia,
+-3:postaæ (jest generowana w grze na polu 1,1-pole startowe), nie dodawaæ w pliku,
+-4:cel
